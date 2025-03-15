@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "justin_furuness"
+version = "0.1.0"
+description = "My first package!"
+authors = [
+    { name = "Justin Furuness", email = "jfuruness@gmail.com" }
+]
+
+[project.scripts]
+print_me = "justin_furuness.__main__:main"
