@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "justin_furuness"
+version = "0.3.0"
+requires-python = ">=3.9"
+description = "My first package!"
+readme = "README.md"
+authors = [
+    {name = "Justin Furuness", email = "jfuruness@gmail.com"},
+]
+maintainers = [
+  {name = "Justin Furuness", email = "jfuruness@gmail.com"}
+]
+license = {file = "LICENSE.txt"}
+keywords = [
+    "Furuness"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: MacOS :: MacOS X",
+]
+dependencies = [
+    "colorama~=0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "twine",
+    "build"
+]
+
+[project.urls]
+Homepage = "https://github.com/jfuruness/justin_furuness"
+Documentation = "https://github.com/jfuruness/justin_furuness/README.md"
+
+[project.scripts]
+justin_furuness = "justin_furuness.__main__:main"
