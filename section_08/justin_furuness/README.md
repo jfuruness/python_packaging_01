@@ -1,6 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/justin_furuness.svg)](https://badge.fury.io/py/justin_furuness)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/justin_furuness)](https://pypi.org/project/justin_furuness/)
-![Tests](https://github.com/jfuruness/justin_furuness/actions/workflows/tests.yml/badge.svg)
 ![Linux](https://img.shields.io/badge/os-Linux-blue.svg)
 ![macOS Intel](https://img.shields.io/badge/os-macOS_Intel-lightgrey.svg)
 ![macOS ARM](https://img.shields.io/badge/os-macOS_ARM-lightgrey.svg)
@@ -31,7 +30,7 @@ from justin_furuness import Justin
 Justin().print_name()
 ```
 
-From the command lind:
+From the command line:
 
 ```bash
 justin_furuness
@@ -73,11 +72,10 @@ To test the development package: [Testing](#testing)
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Test it
-5. Run tox
-6. Commit your changes: `git commit -am 'Add some feature'`
-7. Push to the branch: `git push origin my-new-feature`
-8. Ensure github actions are passing tests
-9. Email me at jfuruness@gmail.com if it's been a while and I haven't seen it
+5. Commit your changes: `git commit -am 'Add some feature'`
+6. Push to the branch: `git push origin my-new-feature`
+7. Ensure github actions are passing tests
+8. Email me at jfuruness@gmail.com if it's been a while and I haven't seen it
 
 ## License
 * [justin\_furuness](#justin\_furuness)
